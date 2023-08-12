@@ -1,0 +1,51 @@
+header nav {
+        background: #fff;
+        box-shadow: 0px 0px 5px #4444;
+      }
+      header nav a.navbar-brand img {
+        height: 40px;
+      }
+      header nav form.search-form {
+        width: 300px;
+        margin-right: 50px;
+        position: relative;
+      }
+      header nav form.search-form input {
+        border-radius: 50px;
+      }
+      header nav form.search-form button.search-btn {
+        border-radius: 50px;
+        padding: 7px 30px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: var(--bs-orange);
+        border: 0;
+        color: #fff;
+      }
+      header nav ul.action-menu .nav-item .nav-link {
+        margin: 0px 20px;
+        font-size: 18px;
+      }
+      
+.bb {
+  color: #666;
+  display: inline-block;
+  margin: 0;
+}
+
+.bb:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #03fcc6;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.bb:hover:after {
+  transform: scaleX(1);
+}
+
+.bb:after {
+  transform-origin: 0% 50%;
+}
